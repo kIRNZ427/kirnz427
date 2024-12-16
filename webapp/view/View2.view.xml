@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.sleflearning.kranthi01.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="View 2">
+    <content>
+    <Button text="This is a Sample Button 2"></Button>    
+    </content>
+    </Page>
+</mvc:View>
