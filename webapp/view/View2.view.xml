@@ -1,9 +1,10 @@
 <mvc:View controllerName="com.sleflearning.kranthi01.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="View 2">
+    <Page id="page" title="Inside View 2" showNavButton="true" navButtonPress="onBack">
     <content>
-    <Button text="This is a Sample Button 2"></Button>    
+    <!-- <Button text="Goto First View" press="onBack"></Button>     -->
+    <Label text="Inside Second View"></Label>    
     </content>
     </Page>
 </mvc:View>

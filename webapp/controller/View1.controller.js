@@ -5,6 +5,10 @@ sap.ui.define([
 
     return Controller.extend("com.sleflearning.kranthi01.controller.View1", {
         onInit() {
+        },
+        onPress(){
+            // alert("testing");
+            this.getOwnerComponent().getRouter().navTo("RouteView2");
         }
     });
 });

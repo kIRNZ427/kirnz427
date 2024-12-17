@@ -1,10 +1,22 @@
 <mvc:View controllerName="com.sleflearning.kranthi01.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="View 1">
-    <content>
-    <Button text="This is a Sample Button"></Button>   
-    <Label text="Dummy"></Label> 
-    </content>
+    <Page id="page" title="Inside View 1">
+        <content>
+             <Text text="Welcome to SAP UI5 CSS" textAlign="Center" width="100%" class="myTextFont"></Text>
+            <Text text="Welcome to SAP UI5" textAlign="Center" width="100%" class="sapMH6FontSize"></Text>
+            <Label text="Enter your name" required="true" class="sapUiMediumMarginBegin"></Label>
+            <Input width="30%" maxLength="10" value="Kranthi" class="sapUiTinyMarginBegin"></Input>
+            <Button text="Submit" type="Emphasized" press="onSubmit" class="sapUiTinyMarginBegin"></Button>
+            <!-- <Button text="Goto Second View" press="onPress"></Button>    -->
+            <!-- <Label text="Dummy"></Label>  -->
+        </content>
+        <footer>
+            <Bar >
+                <contentRight>
+                    <Button text="Goto Second View" press="onPress"></Button>   
+                </contentRight>
+            </Bar>
+        </footer>
     </Page>
 </mvc:View>
